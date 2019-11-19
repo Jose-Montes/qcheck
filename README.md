@@ -1,4 +1,4 @@
-QCHECK: Stata Package for Quality Control of Household Surveys
+﻿QCHECK: Stata Package for Quality Control of Household Surveys
 ==============================================================
 [![githubrelease](https://img.shields.io/github/release/worldbank/qcheck/all.svg?label=current+release)](https://github.com/worldbank/qcheck/releases)
 
@@ -6,7 +6,7 @@ Introduction
 ------------
 (short hand for ‘quality check’) is a technical package for quality control of household surveys, comprehending variable-specific analysis in each dataset. In particular, qcheck performs two different but complementary types of assessments: static and dynamic.  
 
-First, the static analysis of qcheck verifies the internal consistent of each variable and its relationship with other variables in the same dataset. That is, it does not only verify that a variable makes sense in itself (e.g, it is not expected to find negative values for age), but also it checks the consistency of one variable with the others (e.g., It is expected that paid workers receive a positive income, rather than zero or missing income). The user is in the ability to create new tests, validations, and crosstabs to automate the assessing of variables across years, countries, regions, among others.
+First, the static analysis of qcheck verifies the internal consistency of each variable and its relationship with other variables in the same dataset. That is, it does not only verify that a variable makes sense in itself (e.g, it is not expected to find negative values for age), but also it checks the consistency of one variable with the others (e.g., It is expected that paid workers receive a positive income, rather than zero or missing income). The user is in the ability to create new tests, validations, and crosstabs to automate the assessing of variables across years, countries, regions, among others.
 
 Second, assuming that all the datasets are standardized, the dynamic analysis of qcheck verifies the consistency of the same variable over time. In this regard, the basic case of qcheck dynamic performs four different calculations: 
 
